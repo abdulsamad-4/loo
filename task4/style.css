@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: url(/img/OIP\ \(1\).jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.438);
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    width: 100%;
+}
+
+.jj{
+    color: rgb(217, 85, 37);
+}
+
+.hh{
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+.btn{
+    background-color: rgb(241, 72, 11);
+    border: none;
+    color: aliceblue;
+    font-size: 10px;
+    height: 15px;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+main{
+    width: 100%;
+    /* height: auto; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: rgb(241, 72, 11);
+}
+
+.mm{
+    text-align: center;
+    font-size: 20px;
+    width: auto;
+    height: auto;
+}
+
+.tt{
+    font-size: 15px;
+}
+
+.in{
+    margin-top: 70px;
+    background-color: aliceblue;
+    line-height: 30px;
+    height: 100px;
+    padding: 10px;
+}
+
+input{
+    width: 150px;
+    font-size: 16px;
+}
+
+.nn{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.bbb{
+    width: 100px;
+    background-color: rgb(241, 72, 11);
+    border: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(241, 72, 11);
+    margin-bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 105px;
+    margin-top: 90px;
+    padding: 20px;
+}
+
+
+h5{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 760px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background: url(/img/OIP\ \(1\).jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: sans-serif;
+        align-items: center;
+        display: grid;
+    }
+ 
+     header{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.438);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .jj{
+        font-size: 400%;
+    }
+
+    .hh{
+        font-size: 200%;
+    }
+
+    .btn{
+        height: auto;
+        font-size: 100%;
+    }
+
+    .nn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input{
+        width: 250px;
+        margin: 10px;
+        font-size: 16px;
+    }
+
+    .in{
+        height: auto;
+        width: 400px;
+        text-align: center;
+    }
+}
